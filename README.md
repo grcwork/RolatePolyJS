@@ -10,3 +10,7 @@
 
 - Rotation + Translation + Scale
   ![Example 3](/readme_files/gifs/example3.gif)
+
+## How to use?
+
+Look the index.js file to see examples of use
