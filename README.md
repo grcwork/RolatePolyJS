@@ -1,6 +1,6 @@
 # RolatePolyJS
 
-## A mini library to create convex regular polygons on canvas and execute transformations on them
+## A mini library to create convex regular polygons on Canvas and execute transformations on them
 
 - Rotation
   ![Example 1](/readme_files/gifs/example1.gif)
