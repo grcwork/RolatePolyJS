@@ -2,8 +2,8 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-function drawPolygon(ctx, triangleScreenEdges) {
-  for (let [[startX, startY], [endX, endY]] of triangleScreenEdges) {
+function drawPolygon(ctx, polygonScreenEdges) {
+  for (let [[startX, startY], [endX, endY]] of polygonScreenEdges) {
     ctx.beginPath();
     ctx.moveTo(startX, startY);
     ctx.lineTo(endX, endY);
